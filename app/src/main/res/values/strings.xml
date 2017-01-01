@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OaklandAssist</string>
+
+    <string-array name="buildings">
+    <item>South Foundation Hall</item>
+    <item>Engineering Center</item>
+    <item>Math and Science Center</item>
+</string-array>
+
+
+
+</resources>

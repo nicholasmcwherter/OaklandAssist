@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805875542200",
+    "firebase_url": "https://oakland-assist.firebaseio.com",
+    "project_id": "oakland-assist",
+    "storage_bucket": "oakland-assist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805875542200:android:6479b58fa3807d59",
+        "android_client_info": {
+          "package_name": "cit352.oaklandassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805875542200-l5usmilrn7rkeoarh70pmbsar34ek3jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc2m_94d46diNmyKLBoUXcdPx1Pk74mww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

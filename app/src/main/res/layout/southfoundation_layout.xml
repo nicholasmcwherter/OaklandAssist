@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewSouthFoundationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name 1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"
+
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textViewSouthFoundationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="South Foundation Hall"
+        android:layout_below="@+id/textViewSouthFoundationTitle"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/textViewSouthFoundationEventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Time/Date 1"
+        android:layout_below="@+id/textViewSouthFoundationName"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/textViewSouthFoundationSpecificLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specific Location 1"
+        android:layout_below="@+id/textViewSouthFoundationEventTime"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/textViewSouthFoundationDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Description 1 wooo!"
+        android:layout_below="@+id/textViewSouthFoundationSpecificLocation"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Map"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:id="@+id/btnMapSouthFoundation"
+        android:layout_below="@+id/textViewSouthFoundationDescription"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+
+</RelativeLayout>
